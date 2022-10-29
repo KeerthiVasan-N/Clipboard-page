@@ -277,6 +277,14 @@ gap:3rem
         margin-left: 5rem;
         justify-content: center;
     }
+    @media screen and (max-width:600px) {
+        .fl{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
     .li_b{
         display: flex;
         margin-top: 2rem;
