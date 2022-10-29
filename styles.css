@@ -181,6 +181,7 @@ p{
     }
     .logo img{
         width: auto;
+        max-width:200px;
 
     }
 .grid-3{
