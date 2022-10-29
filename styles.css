@@ -4,6 +4,9 @@
 :root{
     font-size: 62.5%;
 }
+.ww{
+    max-width: 1200px;
+}
 .container{
     max-width: 570px;
     margin-inline:auto
@@ -203,9 +206,6 @@ ul{
     list-style-type:none ;
     
 }
-.l{
-    
-}
 footer{
     margin-top: 6rem;
     background-color: #f5f6f9;
@@ -253,6 +253,15 @@ gap:3rem
     background-color: aqua;
     border-radius: 4px;
 }
+.w{
+    max-width: 175px;
+}
+.col{
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+}
 @media screen and (min-width:784px) {
     ul{
         display:flex;
@@ -269,14 +278,11 @@ gap:3rem
         justify-content: center;
     }
     .li_b{
-        display: block;
+        display: flex;
+        margin-top: 2rem;
+        
     }
-}
-.w{
-    max-width: 175px;
-}
-.col{
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    .col{
+        gap: 2rem;
+    }
 }
